@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>1c60463f-69b5-44db-bc96-267f129e8ab7</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>GroupDocs.Search.Examples.CSharp</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\CreatingAnIndex\UsingEvents.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\CreatingAnIndex\UsingIndexRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Indexing\CharacterReplacementDuringIndexing.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Indexing\CharacterTypes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Indexing\DeleteIndexedDocuments.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Indexing\DocumentAttributes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Indexing\DocumentFilteringDuringIndexing.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Indexing\DocumentRenaming.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Indexing\IndexingAdditionalFields.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Indexing\IndexingFromDifferentSources.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Indexing\IndexingMetadataOfDocuments.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Indexing\IndexingOptionsProperties.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Indexing\IndexingReports.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Indexing\IndexingWithStopWords.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Indexing\MergeIndexes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Indexing\OptimizeIndex.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Indexing\SeparateDataExtraction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Indexing\StoringTextOfIndexedDocuments.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\ManagingDictionaries\AliasDictionary.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\ManagingDictionaries\Alphabet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\ManagingDictionaries\CharacterReplacements.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\ManagingDictionaries\HomophoneDictionary.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\ManagingDictionaries\SpellingCorrector.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\ManagingDictionaries\StopWordDictionary.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\ManagingDictionaries\WordFormsProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Scaling\SearchNetworkDeployment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Scaling\GettingDocumentTextInNetwork.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Scaling\GettingDocumentsInNetwork.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Scaling\ImageSearchInNetwork.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Scaling\IndexingDocuments.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Scaling\HighlightingResultsInNetwork.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Scaling\WorkingWithAttributes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Scaling\ConfiguringSearchNetwork.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Scaling\SynchronizingShards.cs" />
+    <Compile Include="..\GroupDocs.Search.Examples.CSharp\AdvancedUsage\Scaling\OptimizingShards.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Scaling\DeletingDocuments.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Scaling\TextSearchInNetwork.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Scaling\SearchNetworkNodeEvents.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Scaling\ManagingDictionariesInNetwork.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Searching\BooleanSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Searching\CaseSensitiveSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Searching\DateRangeSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Searching\DocumentFilteringInSearchResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Searching\FacetedSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Searching\FuzzySearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Searching\HomophoneSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Searching\KeyboardLayoutCorrection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Searching\NumericRangeSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Searching\OutputAdapters.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Searching\PhraseSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Searching\QueriesInTextAndObjectForm.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Searching\RegularExpressionSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Searching\SearchByChunks.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Searching\SearchForDifferentWordForms.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Searching\SearchReports.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Searching\SearchResults.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Searching\SynonymSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Searching\UsingAliases.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedUsage\Searching\WildcardSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\BuildSearchQuery.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\BuildYourFirstSearchSolution.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\GetSupportedFileFormats.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasicUsage\WorkWithSearchResults.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConsoleLogger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GettingStarted\HelloWorld.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GettingStarted\SetMeteredLicense.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HighlightInHtml\HighlightExample.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HighlightInHtml\Highlighter\CharacterHolder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HighlightInHtml\Highlighter\FoundWord.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HighlightInHtml\Highlighter\HtmlHighlighter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HighlightInHtml\Highlighter\IFinder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HighlightInHtml\Highlighter\ISuperFinder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HighlightInHtml\Highlighter\PhraseAnyWordFinder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HighlightInHtml\Highlighter\PhraseFirstWordFinder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HighlightInHtml\Highlighter\PhraseNextWordFinder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HighlightInHtml\Highlighter\SeparateWordFinder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HighlightInHtml\Highlighter\SuperFinder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HighlightInHtml\Highlighter\TextSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HighlightInHtml\Highlighter\WordFinder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HighlightInHtml\HighlightService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HighlightInHtml\HtmlViewer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HighlightInHtml\IndexedFileInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils.cs" />
+  </ItemGroup>
+</Project>
